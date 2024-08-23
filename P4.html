@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cj's Store</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+  </head>
+
+    <body><section id="header">
+    <p class="logo">Yarns Of Grace</p>    
+       <div>
+         <ul id="navbar" class="navagation">
+  <li><a href="index.html">Home</a></li>
+  <li><a  href="about.html">About</a></li>
+  <li><a class="active" href="shop.html">Shop <i class="fas fa-caret-down"></i></a></li>            
+             <li><a href="contact.html">Contact</a></li>
+<li class="cart">
+                <a href="cart.html">Cart<span>0</span>
+                </a>
+            </li>
+             <a herf="#" id="close"><i class="fa fa-times"></i></a>
+    </ul>
+        </div>
+            <div id="mobile">
+                <i id="bar" class="fa fa-outdent"></i>
+
+            </div>
+        </section>
+       
+      <section id="prodetails" class="section-p1">
+          <div class="single-pro-image">
+            <img src="img/products/frog.jpg" width="100%" id="mainimg" alt="">
+            
+           </div>
+        
+          <div class="single-pro-details">
+        <h6>shop / kniting</h6>
+            <h4>Stuffed Frog</h4>
+            
+            <h2>$30.00</h2>
+       
+          <input type="number" value="1">
+ <a class="add-cart cart1" href="#">Add Cart</a>
+            <input type="hidden" value="15" />
+            <h4>Pruduct Details</h4>
+            <span>Jump into fun with our adorable stuffed frog! Made from super-soft materials, this cuddly critter boasts a vibrant green hue and charming embroidered details. Its friendly smile and wide, inviting eyes make it the perfect companion for naps and adventures alike. Whether perched on a shelf or snuggled up during storytime, this lovable frog is sure to hop its way into anyone’s heart—making it a fantastic gift for kids of all ages! </span>
+          </div>
+      </section>
+      
+       
+
+                  <footer class="section-p1">
+         <div class="col">
+           <a herf="index.html" class="logo" style=" font-family: cursive;">Yarns Of Grace</a>
+           <h4>Contact</h4>
+           <p><span>Address:</span>Orlando Florida</p>
+           <p><span>E-mail:</span>yarnsofgrace123@gmail.com</p>
+           <p><span>Hours:</span>1:00 - 6:00, Mon - Sat</p>
+        </div> 
+        <div class="col">
+          <h4>About</h4>
+          
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+        </div> 
+        <div class="col">
+          <h4>My Account</h4>
+      <li><a href="cart.html">View Cart</a></li>
+      <li><a href="contact.html">Help</a>
+        </div>
+        <div class="col install">
+<div class="copyright">
+       <p class="copyright">Copyright © 2024 All rights reserved - Yarns Of Grace</p>
+</div>        
+</div>
+      </footer>
+      <script>
+        var mainimg = document.getElementById("mainimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        
+        smallimg[0].onclick = function(){
+          mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+          mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+          mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+          mainimg.src = smallimg[3].src;
+        }
+      </script>
+      
+        <script src="script.js"></script>
+    </body>
+
+</html>
